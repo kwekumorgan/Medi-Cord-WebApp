@@ -1,5 +1,6 @@
-function SideDecoration() {
+function SideDecoration({style}) {
   return (
+    <div style={{decorationStyle}}>
     <div style={stylewrapper}>
       <div style={smalline}></div>
 
@@ -7,11 +8,16 @@ function SideDecoration() {
 
       <div style={dot}></div>
     </div>
+    </div>
   );
 }
 
 export default SideDecoration;
 
+
+const decorationStyle = {
+    padding:0,
+};
 const smalline = {
   width: "4px",
   height: "30px",
@@ -21,7 +27,7 @@ const smalline = {
 
 const longline = {
   width: "4px",
-  height: "180px",
+  height: "195px",
   background: "#6a57d8",
   borderRadius: "4px",
 };
@@ -31,11 +37,15 @@ const dot = {
   height: "10px",
   background: "#6a57d8",
   borderRadius: "50%",
+  marginTop: "10px",   
 };
 
 const stylewrapper = {
   display: "flex",
   flexDirection: "column",
-  gap: "85px",
+  gap: "80px",
   alignItems: "center",
+  marginLeft: "30px",
+  marginRight:0,
+  marginTop:"155px"
 };

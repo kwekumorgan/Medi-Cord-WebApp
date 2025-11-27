@@ -1,0 +1,87 @@
+/* ===== Container Layout ===== */
+.container {
+  display: flex;
+  height: 100vh;
+  margin-left: 30px;
+  padding: 0;
+}
+
+/* ===== Left Side ===== */
+.leftSide {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.image {
+  width: 90%;
+  height: 85%;
+  margin-top: 70px;
+}
+
+/* ===== Right Side ===== */
+.rightSide {
+  flex: 0 0 20%;
+  display: flex;
+  margin-top: 85px;
+  margin-left: 70px;
+  margin-right: 0px;
+}
+
+.contentWrapper {
+  width: 80%;
+  text-align: left;
+}
+
+/* ===== Typography ===== */
+.welcomeTitle {
+  margin: -5px;
+  font-size: 29px;
+  letter-spacing: -1px;
+}
+
+.welcomeSubtitle {
+  margin: 0;
+  color: grey;
+  font-size: 14px;
+}
+
+/* ===== Form Section ===== */
+.formSection {
+  margin-top: 115px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* ===== Inputs ===== */
+.input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1.5px solid #8f7dd6ff;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.input:focus {
+  border-color: #7260f7;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(114, 96, 247, 0.3);
+}
+
+/*Button  */
+.loginButton {
+  width: 320px;
+  padding: 10px;
+  color: white;
+  background-color: #4e3ec7ff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 80px;
+  cursor: pointer;
+}
