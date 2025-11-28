@@ -1,0 +1,27 @@
+.sideNavBarContainer{
+    width: 250px;
+    height: 100vh;
+    background-color: #c8cfd6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+     text-align: center;
+}
+
+.sideNavBar{
+    gap:30px;
+    display:flex;
+    flex-direction: column;
+    
+   
+}
+
+
+.navBarItem{
+    text-decoration: none;
+
+
+}
+
+
