@@ -1,0 +1,39 @@
+.homeCardText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+   overflow-wrap: break-word; 
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.homeCard {
+  width: 75.5%;
+  padding-left: 60px;
+  
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 360px;
+  background-color: rgb(83, 74, 150);
+  margin-left: 20%;
+} 
+
+.doctorImage {
+ display: block;
+ object-fit: contain;
+ max-height: 110%;
+ height: auto;
+ 
+ 
+}
+
+
+.imageContainer {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  box-sizing: border-box;
+  overflow:hidden;
+}
