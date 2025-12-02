@@ -1,0 +1,72 @@
+.topBarLayout{
+    width:80%;
+    height:70px;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.searchBarContainer{
+    display:flex;
+    align-items:center;
+    background-color: #ffff;
+    border: 1.5px solid #b3afaf;
+    border-radius:6px;
+    padding:8px 10px;
+    height: 13px;
+    width: 220px;
+    margin-left: 55px;
+}
+
+
+.filterButton {
+  background: white;
+  border: none;
+  cursor: pointer;
+  color: rgb(5, 121, 121);
+}
+.filterButton:hover {
+  background-color: #f0f0f0;
+}
+
+.filterIcon {
+  font-size: 10px;
+  color: #4e3ec7ff;
+}
+
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  color: #353232;
+  background-color: transparent;
+
+}
+.searchBar{
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    border:1px solid grey;
+    margin-left: 40px;
+    padding: 8px;
+
+}
+
+.searchIcon{
+    color:grey;
+    font-size:13px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+
+
+
+
+
