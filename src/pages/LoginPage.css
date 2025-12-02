@@ -83,7 +83,7 @@
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.6);
 }
 .loginButton :active {
-  background-color: rgb(122, 112, 197);
+  background-color: #7a70c5;
   transform : scale(0.97);
 }
 
