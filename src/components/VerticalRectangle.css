@@ -1,0 +1,13 @@
+.rectangleLayout {
+  height: 730px;
+  width: 230px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translateX(-50%);
+  left: 83%;
+  top: 25%;
+  border-radius: 10px;
+  border-bottom: 1.5px solid #4e3ec7ff;
+  border-left: 1.5px solid #4e3ec7ff;
+  border-right: 1.5px solid #4e3ec7ff;
+}
