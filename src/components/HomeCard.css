@@ -1,39 +1,44 @@
-.homeCardText {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-   overflow-wrap: break-word; 
-  word-wrap: break-word;
-  word-break: break-word;
-}
+
 .homeCard {
-  width: 75.5%;
-  padding-left: 60px;
-  
-  margin-top: 0;
-  display: flex;
-  flex-direction: row;
-  height: 360px;
+  position: relative;          
+  height: 420px;
   background-color: rgb(83, 74, 150);
   margin-left: 20%;
-} 
+  padding-left: 20px;
+  display: flex;
+  align-items: flex-start;         
 
-.doctorImage {
- display: block;
- object-fit: contain;
- max-height: 110%;
- height: auto;
- 
- 
+;          
+        
+}
+
+
+.homeCardText {
+  position: relative;          
+  z-index: 2;                 
+  max-width: 40%;              
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-left:10px;                  
 }
 
 
 .imageContainer {
- 
+  position: absolute;          
+  top:0;                    
+  left: 53%;                   
+transform: translateX(-50%);
+  
+  z-index: 1;                
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  height: 100%;
-  box-sizing: border-box;
-  overflow:hidden;
+  align-items: center;
+}
+
+
+.doctorImage {
+  height: 420px;              
+  object-fit: contain;
+               
 }
