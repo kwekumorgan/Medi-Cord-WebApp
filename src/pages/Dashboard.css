@@ -1,0 +1,71 @@
+
+.layout{
+    display: flex; 
+   
+    padding: 20px; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.card-base {
+    padding: 15px; 
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.card-base:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+
+.salesReport {
+     margin-left: 30px;
+    height: 320px; 
+    width: 700px; 
+    background-color: #ffffff; 
+    color: #cc4444; 
+    border: 1px solid #f0dada; 
+}
+
+.realTimeUser {
+     min-height: 120px; 
+    width: 200px; 
+    background-color: #e6f7e6; 
+    color: #44cc44; 
+    border: 1px solid #daf0da;
+}
+
+.totalVisits {
+    min-height: 120px; 
+    width: 200px; 
+    background-color: #e6e6f7; 
+    color: #4444cc; 
+    border: 1px solid #dadada;
+}
+
+.visitDuration {
+     min-height: 120px; 
+    width: 200px; 
+    background-color: #f7f7e6; 
+    color: #cccc44; 
+    border: 1px solid #f0f0da;
+}
+
+.bottomCard{ 
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+     margin-left:30px;
+}
+
+.cardLayout{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
