@@ -2,7 +2,7 @@ import "./CategoryCard.css";
 
 function CategoryCard(props) {
   return (
-    <div className="categoryCardLayout">
+    <div className="categoryCardLayout" onClick={props.onClick} tabIndex="0">
       <div className="categoryCardImageBackground">
         <img
           src={props.image}
@@ -10,8 +10,8 @@ function CategoryCard(props) {
           className="categoryCardImage"
         />
       </div>
-      <div className='categooryCardText'>
-        <p>{props.name}</p>
+      <div className="categooryCardText">
+        <p className="categoryText">{props.name}</p>
       </div>
     </div>
   );

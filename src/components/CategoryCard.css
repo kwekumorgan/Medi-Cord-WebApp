@@ -10,6 +10,11 @@
 
 }
 
+
+.categoryButton{
+    border:none;
+    background-color:none;
+}
 .categoryCardImage{
     height:30px;
     width: 30px;
@@ -38,3 +43,8 @@
     align-items: center;
 }
 
+.categoryText{
+    font-size:15px;
+    font-weight: 600;
+    letter-spacing:0px;
+}
